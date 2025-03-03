@@ -2,7 +2,7 @@
 YOLO-DySE: Enhancing Multi-Target Substation Safety Monitoring with Dynamic Adaptive Data Enhancement
 1. Project Overview
 This project is based on the paper "YOLO-DySE: Enhancing Multi-Target Substation Safety Monitoring with Dynamic Adaptive Data Enhancement" published in The Visual Computer. It proposes a novel deep learning model, YOLO-DySE, designed to improve the accuracy and robustness of multi-target detection (e.g., flames and safety helmets) in complex substation environments. The model incorporates dynamic adaptive data enhancement techniques and advanced feature extraction modules to achieve state-of-the-art performance. This repository provides the source code, documentation, and usage guidelines to facilitate the replication of experiments and evaluation of results.
-
+dataset：https://aistudio.baidu.com/datasetdetail/199384
 2. Environment Setup and Installation
 2.1 Dependencies
 The dependencies for this project are consistent with YOLOv5 v7.0. Refer to the requirements.txt file for the complete list. Key dependencies include:
