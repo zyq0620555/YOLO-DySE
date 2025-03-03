@@ -40,18 +40,18 @@ pip install -r requirements.txt
 3.1 Code Structure
 
 YOLO-DySE/
-├── datasets/              # Directory for datasets
-├── models/                # Model definitions and configurations
-│   ├── c3_se.py           # Implementation of the C3-SE module
-│   ├── dylamhead.py       # Implementation of the DyLAMHead module
-│   ├── dogs-CC-DYHEAD-SE.yaml  # Model configuration file
-├── utils/                 # Utility functions
-│   ├── dataloaders.py     # Data loading and dynamic augmentation
-│   ├── loss.py            # Loss function implementation
-├── train.py               # Model training script
-├── detect.py              # Object detection inference script
-├── README.md              # Project documentation
-├── requirements.txt       # List of dependencies
+├── datasets/             
+├── models/               
+│   ├── c3_se.py         
+│   ├── dylamhead.py       
+│   ├── dogs-CC-DYHEAD-SE.yaml  
+├── utils/                 
+│   ├── dataloaders.py    
+│   ├── loss.py           
+├── train.py              
+├── detect.py              
+├── README.md             
+├── requirements.txt       
 3.2 Key Modules
 3.2.1 Dynamic Adaptive Data Enhancement (DADE)
 Function: Dynamically adjusts training data to enhance the model's adaptability to complex environments.
