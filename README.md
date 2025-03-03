@@ -39,7 +39,7 @@ pip install -r requirements.txt
 3. Code Structure and Key Modules
 3.1 Code Structure
 
-[YOLO-DySE
+YOLO-DySE/
 ├── datasets/              # Directory for datasets
 ├── models/                # Model definitions and configurations
 │   ├── c3_se.py           # Implementation of the C3-SE module
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ├── train.py               # Model training script
 ├── detect.py              # Object detection inference script
 ├── README.md              # Project documentation
-├── requirements.txt       # List of dependencies](url)
+├── requirements.txt       # List of dependencies
 3.2 Key Modules
 3.2.1 Dynamic Adaptive Data Enhancement (DADE)
 Function: Dynamically adjusts training data to enhance the model's adaptability to complex environments.
