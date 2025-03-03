@@ -87,7 +87,6 @@ Function: Improves bounding box regression by reducing sensitivity to extreme as
 
 Core Formula:
 
-# Modified CIoU with regularization parameter δ
 δ-EIoU = LIoU + Ldis + ( (w_pred - w_gt)^2 + δ ) + ( (h_pred - h_gt)^2 + δ )
 Implementation: Directly modifies the CIoU calculation logic to include regularization terms for width and height differences.
 
